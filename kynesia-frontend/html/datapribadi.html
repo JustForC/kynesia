@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/datapribadi.css">
+    <link rel="stylesheet" href="../css/slider.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Data Pribadi</title>
+</head>
+<body>
+    <div class="dp__container .header-1">
+        <div class="dp__container__wrap">
+
+            <div class="dp__container__wrap__header">
+                <div class="dp__container__wrap__header__logo">
+                    <img src="../assets/logo.png" alt="logo">
+                </div>
+                <div class="dp__container__wrap__header__profile">
+                    <h3>syakir@test.com</h3>
+                    <div class="dp__container__wrap__header__profile__photo">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="dp__container__wrap__title">
+                <h1 class="head-1">Kynesia Scholarship</h1>
+                <h1 class="head-2">Registration Form v1.0</h1>
+            </div>
+
+            <div class="dp__container__wrap__step">
+                <div class="dp__container__wrap__step__box">
+                    <div class="dp__container__wrap__step__box__content active">
+                        <img src="../assets/sheet.svg" alt="sheet">
+                        <p>Data Pribadi</p>
+                    </div>
+                    <div class="dp__container__wrap__step__box__content">
+                        <img src="../assets/User.svg" alt="sheet">
+                        <p>Keuangan</p>
+                    </div>
+                    <div class="dp__container__wrap__step__box__content">
+                        <img src="../assets/User.svg" alt="sheet">
+                        <p>Pendidikan</p>
+                    </div>
+                    <div class="dp__container__wrap__step__box__content">
+                        <img src="../assets/User.svg" alt="sheet">
+                        <p>Unduhan</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dp__container__wrap__form header-2">
+                <div class="form-content-1">
+                    <p>Nama Lengkap Sesuai Identitas</p>
+                    <input type="text" placeholder="Nama Lengkap" class="input-long">
+                </div>
+                <div class="form-content-2">
+                    <div class="form-content-2-1">
+                        <p>Nama Panggilan</p>
+                        <input type="text" placeholder="Nama Panggilan" class="input-short">
+                    </div>
+                    <div class="form-content-2-2">
+                        <p>Jenis Kelamin</p>
+                        <select name="sex" id="sex" class="input-short">
+                            <option value="" disabled selected hidden class="option-1">Choose a Category</option>
+                            <option value="pria" class="option-1">Pria</option>
+                            <option value="wanita" class="option-1">Wanita</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-content-3">
+                    <div class="form-content-3-1">
+                        <p>Tempat Lahir</p>
+                        <input type="text" placeholder="Tempat Lahir" class="input-short">
+                    </div>
+                    <div class="form-content-3-2">
+                        <p>Tanggal Lahir</p>
+                        <input type="date" class="input-short">
+                    </div>
+                </div>
+                <div class="form-content-4">
+                    <div class="form-content-4-1">
+                        <p>Nomor Handphone</p>
+                        <input type="number" placeholder="Nomor Handphone" class="input-short">
+                    </div>
+                    <div class="form-content-4-2">
+                        <p>Alamat Email</p>
+                        <input type="email" placeholder="e-mail" class="input-short">
+                    </div>
+                </div>
+                <div class="form-content-5">
+                    <div class="form-content-5-1">
+                        <p>Nomor Identitas (KTP/Paspor/KK)</p>
+                        <select name="identity" id="identity" class="input-short">
+                            <option value="" disabled selected hidden>Choose a Category</option>
+                            <option value="ktp">KTP</option>
+                            <option value="paspor">Paspor</option>
+                            <option value="kk">KK</option>
+                        </select>
+                    </div>
+                    <div class="form-content-5-2">
+                        <p class="p-disabled">0</p>
+                        <input type="text" placeholder="Nomor Identitas" class="input-short">
+                    </div>
+                </div>
+                <div class="form-content-6">
+                    <p>Alamat Sesuai KTP</p>
+                    <input type="text" placeholder="Alamat" class="input-long">
+                </div>
+                <div class="form-content-7">
+                    <div class="form-content-7-1">
+                        <p>Kode Pos</p>
+                        <input type="number" placeholder="Kode Pos" class="input-short">
+                    </div>
+                    <div class="form-content-7-2">
+                        <p>Kecamatan</p>
+                        <input type="text" placeholder="Kecamatan" class="input-short">
+                    </div>
+                </div>
+                <div class="form-content-8">
+                    <div class="form-content-8-1">
+                        <p>Kota/Kabupaten</p>
+                        <input type="text" placeholder="Kota/Kabupaten" class="input-short">
+                    </div>
+                    <div class="form-content-8-2">
+                        <p>Provinsi</p>
+                        <input type="text" placeholder="Provinsi" class="input-short">
+                    </div>
+                </div>
+                <div class="form-content-9">
+                    <p>Alamat Saat Ini</p>
+                    <div class="form-content-9-1">
+                        <label class="switch" for="checkbox">
+                            <input type="checkbox" id="checkbox" onclick="myFunc()"/>
+                            <div class="slider round"></div>
+                        </label>
+                        <p>Sama dengan KTP</p>
+                    </div>
+                </div>
+                
+                <!-- Jika Alamat tidak sama -->
+                <div class="check-ktp">
+                    <div class="form-content-10">
+                        <p>Alamat Saat ini</p>
+                        <input type="text" placeholder="Alamat" class="input-long">
+                    </div>
+                    <div class="form-content-11">
+                        <div class="form-content-11-1">
+                            <p>Kode Pos</p>
+                            <input type="number" placeholder="Kode Pos" class="input-short">
+                        </div>
+                        <div class="form-content-11-2">
+                            <p>Kecamatan</p>
+                            <input type="text" placeholder="Kecamatan" class="input-short">
+                        </div>
+                    </div>
+                    <div class="form-content-12">
+                        <div class="form-content-12-1">
+                            <p>Kota/Kabupaten</p>
+                            <input type="text" placeholder="Kota/Kabupaten" class="input-short">
+                        </div>
+                        <div class="form-content-12-2">
+                            <p>Provinsi</p>
+                            <input type="text" placeholder="Provinsi" class="input-short">
+                        </div>
+                    </div>
+                </div>
+                <!-- end Jika Alamat tidak sama -->
+
+                <div class="form__medsos">
+                    <p>Media Sosial</p>
+                </div>
+
+                <div class="form-content-13">
+                    <div class="form-content-13-1">
+                        <p>Instagram</p>
+                        <input type="text" placeholder="Instagram" class="input-short">
+                    </div>
+                    <div class="form-content-13-2">
+                        <p>Twitter</p>
+                        <input type="text" placeholder="Twitter" class="input-short">
+                    </div>
+                </div>
+                <div class="form-content-14">
+                    <div class="form-content-14-1">
+                        <p>Facebook</p>
+                        <input type="text" placeholder="Facebook" class="input-short">
+                    </div>
+                    <div class="form-content-14-2">
+                        <p>Tiktok</p>
+                        <input type="text" placeholder="Tiktok" class="input-short">
+                    </div>
+                </div>
+                <div class="form-content-14">
+                    <div class="form-content-14-1">
+                        <p>Jalur Masuk</p>
+                        <div class="radiobutton">
+                            <input type="radio" id="snmptn" name="jalur" value="snmptn">
+                            <label for="snmptn">SNMPTN</label>
+                            <input type="radio" id="sbmptn" name="jalur" value="sbmptn">
+                            <label for="sbmptn">SBMPTN</label>
+                        </div>
+                    </div>
+                    <div class="form-content-14-2">
+                        <p>Nomor Peserta</p>
+                        <input type="text" placeholder="Nomor Peserta" class="input-short">
+                    </div>
+                </div>
+
+                <div class="form__pilihan">
+                    <p>Pilihan Program Studi SNMPTN/SBMPTN </p>
+                </div>
+
+                <div class="form-content-15">
+                    <div class="form-content-15-1">
+                        <p>Program Studi</p>
+                        <input type="text" placeholder="Program Studi" class="input-short">
+                        <input type="text" placeholder="Program Studi" class="input-short">
+                        <input type="text" placeholder="Program Studi" class="input-short">
+                    </div>
+                    <div class="form-content-15-2">
+                        <p>Perguruan Tinggi</p>
+                        <input type="text" placeholder="Perguruan Tinggi" class="input-short-max">
+                        <input type="text" placeholder="Perguruan Tinggi" class="input-short-max">
+                        <input type="text" placeholder="Perguruan Tinggi" class="input-short-max">
+                    </div>
+                    <div class="form-content-15-3">
+                        <div class="radiobutton-2">
+                            <div class="radiobutton-class">
+                                <input type="radio" id="snmptn" name="pilih" value="snmptn">
+                                <label for="snmptn">SNMPTN</label>
+                            </div>
+                            <div class="radiobutton-class">
+                                <input type="radio" id="snmptn" name="pilih" value="snmptn">
+                                <label for="snmptn">SNMPTN</label>
+                            </div>                            <div class="radiobutton-class">
+                                <input type="radio" id="snmptn" name="pilih" value="snmptn">
+                                <label for="snmptn">SNMPTN</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-content-button">
+                    <button class="button-submit-1">Batal</button>
+                    <button class="button-submit-2">Simpan</button>
+                </div>
+            </div>
+
+            <div class="dp__container__wrap__footer">
+                <p>© 2021 Kynesia. All rights reserved</p>
+            </div>
+        
+        </div>
+    </div>
+
+    <script src="../js/checkAddress.js"></script>
+</body>
+</html>

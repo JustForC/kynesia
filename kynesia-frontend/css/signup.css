@@ -1,0 +1,141 @@
+.log__container__wrap__logo {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log__container__wrap__logo img {
+    width: 140px;
+    height: 140px;
+}
+
+.log__container__wrap__form {
+    width: 100%;
+    height: 335px;
+}
+
+.log__container__wrap__form form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log__container__wrap__form form .email {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+
+.log__container__wrap__form form .password {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.log__container__wrap__form form .confirm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.log__container__wrap__form form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.log__container__wrap__form form input {
+    width: 400px;
+    height: 48px;
+    border: 1px solid #A7A7A7;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.log__container__wrap__form form input::placeholder {
+    font-size: 16px;
+    color: #A7A7A7;
+}
+
+.log__container__wrap__button {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.log__container__wrap__button p {
+    font-size: 16px;
+    color: #A7A7A7;
+}
+
+.log__container__wrap__button p a{
+    color: #FECF60;
+}
+
+.log__container__wrap__button .sign-up {
+    background-color: #05AFBE;
+    width: 100px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .log__container__wrap__logo {
+        height: 84px;
+    }
+    .log__container__wrap__logo img {
+        width: 79px;
+        height: 79px;
+    }
+    .log__container__wrap__form {
+        height: 189px;
+    }
+    .log__container__wrap__form form .email {
+        margin-top: 16px;
+    }
+    .log__container__wrap__form form .password {
+        margin-top: 16px;
+    }
+    .log__container__wrap__form form .confirm {
+        margin-top: 16px;
+    }
+    .log__container__wrap__form form label {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .log__container__wrap__form form input {
+        width: 226px;
+        height: 27px;
+        padding-left: 5px;
+        font-size: 9px;
+    }
+    .log__container__wrap__form form input::placeholder {
+        font-size: 9px;
+    }
+    .log__container__wrap__button {
+        width: 100%;
+        height: 73px;
+        padding: 0 32px;
+    }
+    .log__container__wrap__button p {
+        font-size: 9px;
+    }
+    .log__container__wrap__button .sign-up {
+        width: 56px;
+        height: 31px;
+        font-size: 9px;
+        margin-right: 9px;
+    }
+}

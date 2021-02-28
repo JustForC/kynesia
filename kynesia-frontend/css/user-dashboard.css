@@ -1,0 +1,759 @@
+.dash__container {
+    width: 100%;
+    height: 100vh;
+}
+
+.dash__container .dash__menu {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    background-image: linear-gradient(to bottom left, #003366, #05AFBE, #ffffff);
+}
+
+.dash__container .dash__menu .dash__menu__close {
+    display: none;
+}
+
+.dash__container .dash__menu .dash__menu__logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.dash__container .dash__menu .dash__menu__logo h1 {
+    font-size: 30px;
+}
+
+.dash__container .dash__menu .dash__menu__logo img {
+    width: 90px;
+}
+
+.dash__container .dash__menu .dash__menu__list {
+    width: 100%;
+}
+
+.dash__container .dash__menu .dash__menu__list ul {
+    width: 100%;
+}
+
+.dash__container .dash__menu .dash__menu__list ul li {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    width: 100%;
+    height: 110px;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.dash__container .dash__menu .dash__menu__list ul li img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+.dash__container .dash__menu .dash__menu__list ul li:nth-child(1) {
+    background: rgba(0,0,0, 0.17);
+}
+
+.dash__container .dash__detail {
+    width: 80%;
+    margin-left: 20%;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.dash__container .dash__detail .dash__detail__profile {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.dash__container .dash__detail .dash__detail__profile .dash__detail__profile__name h2{
+    font-size: 25px;
+}
+
+.dash__container .dash__detail .dash__detail__profile .dash__detail__profile__name .dash__detail__profile__name__hamburger {
+    display: none;
+}
+
+.dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email {
+    display: flex;
+    align-items: center;
+}
+
+.dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email h3 {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email .dash__detail__profile__email__photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: greenyellow;
+}
+
+.dash__container .dash__detail .dash__detail__header {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap {
+    width: 94%;
+    height: 92%;
+    border-radius: 8px;
+    border: 1px solid #ededed;
+    background-color: #ffffff;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title p {
+    font-size: 30px;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 {
+    color: #05AFBE;
+    font-size: 40px;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 span {
+    color: #000000;
+    font-size: 30px;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle button {
+    background-color: #003366;
+    color: #ffffff;
+    cursor: pointer;
+    width: 160px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: none;
+    border-radius: 40px;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 50px;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal {
+    font-size: 30px;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal .p-yellow {
+    color: #FECF60;
+    margin: 15px 0;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil {
+    width: 650px;
+    height: 570px;
+    background-color: #F9F8F8;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__title {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__akhir {
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #FECF60;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .dash__container .dash__menu .dash__menu__logo {
+        margin-bottom: 33px;
+    }
+    .dash__container .dash__menu .dash__menu__logo h1 {
+        font-size: 25px;
+    }
+    .dash__container .dash__menu .dash__menu__logo img {
+        width: 74px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li {
+        height: 91px;
+        font-size: 25px;
+        padding-left: 25px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li img {
+        margin-right: 8px;
+        width: 25px;
+    }
+    .dash__container .dash__detail .dash__detail__profile {
+        height: 83px;
+        padding: 0 41px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__name h2{
+        font-size: 21px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email h3 {
+        margin-right: 16px;
+        font-size: 16px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email .dash__detail__profile__email__photo {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: greenyellow;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title {
+        height: 91px;
+        padding-left: 41px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title p {
+        font-size: 25px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle {
+        height: 108px;
+        padding: 0 41px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 {
+        font-size: 33px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 span {
+        font-size: 25px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle button {
+        width: 133px;
+        height: 42px;
+        font-size: 21px;
+        border-radius: 33px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi {
+        height: 500px;
+        padding: 29px 41px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal {
+        font-size: 25px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal .p-yellow {
+        margin: 12px 0;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil {
+        width: 541px;
+        height: 474px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__title {
+        height: 83px;
+        padding-left: 25px;
+        font-size: 25px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__akhir {
+        padding-left: 25px;
+        padding-top: 25px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .dash__container .dash__menu .dash__menu__logo {
+        margin-bottom: 28px;
+    }
+    .dash__container .dash__menu .dash__menu__logo h1 {
+        font-size: 21px;
+    }
+    .dash__container .dash__menu .dash__menu__logo img {
+        width: 63px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li {
+        height: 77px;
+        font-size: 21px;
+        padding-left: 21px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li img {
+        margin-right: 7px;
+        width: 21px;
+    }
+    .dash__container .dash__detail .dash__detail__profile {
+        height: 70px;
+        padding: 0 35px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__name h2{
+        font-size: 17px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email h3 {
+        margin-right: 14px;
+        font-size: 14px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email .dash__detail__profile__email__photo {
+        width: 36px;
+        height: 36px;
+        border-radius: 18px;
+        background-color: greenyellow;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title {
+        height: 77px;
+        padding-left: 35px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title p {
+        font-size: 21px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle {
+        height: 91px;
+        padding: 0 35px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 {
+        font-size: 28px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 span {
+        font-size: 21px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle button {
+        width: 112px;
+        height: 36px;
+        font-size: 17px;
+        border-radius: 28px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi {
+        height: 420px;
+        padding: 24px 35px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal {
+        font-size: 21px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal .p-yellow {
+        margin: 10px 0;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil {
+        width: 455px;
+        height: 400px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__title {
+        height: 70px;
+        padding-left: 21px;
+        font-size: 21px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__akhir {
+        padding-left: 21px;
+        padding-top: 21px;
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .dash__container .dash__menu .dash__menu__logo {
+        margin-bottom: 26px;
+    }
+    .dash__container .dash__menu .dash__menu__logo h1 {
+        font-size: 19px;
+    }
+    .dash__container .dash__menu .dash__menu__logo img {
+        width: 59px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li {
+        height: 72px;
+        font-size: 19px;
+        padding-left: 19px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li img {
+        margin-right: 6px;
+        width: 19px;
+    }
+    .dash__container .dash__detail .dash__detail__profile {
+        height: 66px;
+        padding: 0 33px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__name h2{
+        font-size: 16px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email h3 {
+        margin-right: 13px;
+        font-size: 13px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email .dash__detail__profile__email__photo {
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        background-color: greenyellow;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title {
+        height: 72px;
+        padding-left: 33px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title p {
+        font-size: 19px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle {
+        height: 85px;
+        padding: 0 33px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 {
+        font-size: 26px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 span {
+        font-size: 19px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle button {
+        width: 105px;
+        height: 34px;
+        font-size: 16px;
+        border-radius: 26px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi {
+        height: 396px;
+        padding: 23px 33px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal {
+        font-size: 19px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal .p-yellow {
+        margin: 10px 0;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil {
+        width: 429px;
+        height: 376px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__title {
+        height: 66px;
+        padding-left: 19px;
+        font-size: 19px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__akhir {
+        padding-left: 19px;
+        padding-top: 19px;
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .dash__container .dash__menu .dash__menu__logo {
+        margin-bottom: 22px;
+    }
+    .dash__container .dash__menu .dash__menu__logo h1 {
+        font-size: 16px;
+    }
+    .dash__container .dash__menu .dash__menu__logo img {
+        width: 50px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li {
+        height: 61px;
+        font-size: 16px;
+        padding-left: 16px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li img {
+        margin-right: 5px;
+        width: 16px;
+    }
+    .dash__container .dash__detail .dash__detail__profile {
+        height: 56px;
+        padding: 0 28px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__name h2{
+        font-size: 14px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email h3 {
+        margin-right: 11px;
+        font-size: 11px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email .dash__detail__profile__email__photo {
+        width: 28px;
+        height: 28px;
+        border-radius: 14px;
+        background-color: greenyellow;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title {
+        height: 61px;
+        padding-left: 28px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title p {
+        font-size: 16px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle {
+        height: 72px;
+        padding: 0 28px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 {
+        font-size: 22px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 span {
+        font-size: 16px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle button {
+        width: 89px;
+        height: 28px;
+        font-size: 14px;
+        border-radius: 22px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi {
+        height: 339px;
+        padding: 19px 28px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal {
+        font-size: 16px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal .p-yellow {
+        margin: 8px 0;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil {
+        width: 368px;
+        height: 322px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__title {
+        height: 56px;
+        padding-left: 16px;
+        font-size: 16px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__akhir {
+        padding-left: 16px;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .dash__container .dash__menu .dash__menu__logo {
+        margin-bottom: 20px;
+    }
+    .dash__container .dash__menu .dash__menu__logo h1 {
+        font-size: 15px;
+    }
+    .dash__container .dash__menu .dash__menu__logo img {
+        width: 45px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li {
+        height: 55px;
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li img {
+        margin-right: 5px;
+        width: 15px;
+    }
+    .dash__container .dash__detail .dash__detail__profile {
+        height: 50px;
+        padding: 0 25px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__name h2{
+        font-size: 12px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email h3 {
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email .dash__detail__profile__email__photo {
+        width: 25px;
+        height: 25px;
+        border-radius: 12px;
+        background-color: greenyellow;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title {
+        height: 55px;
+        padding-left: 25px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title p {
+        font-size: 15px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle {
+        height: 65px;
+        padding: 0 25px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 {
+        font-size: 20px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 span {
+        font-size: 15px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle button {
+        width: 80px;
+        height: 21px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi {
+        height: 300px;
+        padding: 18px 25px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal {
+        font-size: 15px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal .p-yellow {
+        margin: 7px 0;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil {
+        width: 325px;
+        height: 285px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__title {
+        height: 50px;
+        padding-left: 15px;
+        font-size: 15px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__akhir {
+        padding-left: 15px;
+        padding-top: 15px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    /* DASH MENU */
+    .dash__container .dash__menu {
+        display: fixed;
+        width: 0;
+        overflow-x: hidden;
+        transition: 0.6s;
+    }
+    .dash__container .dash__menu .dash__menu__close {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 10px;
+        width: 100%;
+        height: 30px;
+    }
+    .dash__container .dash__menu .dash__menu__close img {
+        width: 10px;
+    }
+    .dash__container .dash__menu .dash__menu__logo {
+        margin-bottom: 12px;
+    }
+    .dash__container .dash__menu .dash__menu__logo h1 {
+        font-size: 9px;
+    }
+    .dash__container .dash__menu .dash__menu__logo img {
+        width: 28px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li {
+        height: 34px;
+        font-size: 9px;
+        padding-left: 9px;
+    }
+    .dash__container .dash__menu .dash__menu__list ul li img {
+        margin-right: 3px;
+        width: 9px;
+    }
+    
+    /* DASH DETAIL */
+    .dash__container .dash__detail {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .dash__container .dash__detail .dash__detail__profile {
+        height: 31px;
+        padding: 0 15px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__name {
+        display: flex;
+        height: 50px;
+        width: 120px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__name .dash__detail__profile__name__hamburger {
+        display: flex;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__name .dash__detail__profile__name__hamburger img{
+        width: 16px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email h3 {
+        margin-right: 6px;
+        font-size: 6px;
+    }
+    .dash__container .dash__detail .dash__detail__profile .dash__detail__profile__email .dash__detail__profile__email__photo {
+        width: 15px;
+        height: 15px;
+        border-radius: 8px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title {
+        height: 34px;
+        padding-left: 15px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__title p {
+        font-size: 9px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle {
+        height: 40px;
+        padding: 0 15px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 {
+        font-size: 12px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle h1 span {
+        font-size: 9px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__subtitle button {
+        width: 49px;
+        height: 15px;
+        font-size: 8px;
+        border-radius: 12px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi {
+        height: 186px;
+        padding: 10px 15px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal {
+        font-size: 9px;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__jadwal .p-yellow {
+        margin: 5px 0;
+    }
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil {
+        width: 201px;
+        height: 176px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__title {
+        height: 31px;
+        padding-left: 9px;
+        font-size: 9px;
+    }
+    
+    .dash__container .dash__detail .dash__detail__header .dash__detail__header__wrap .dash__detail__header__wrap__seleksi .dash__detail__header__wrap__seleksi__hasil .dash__detail__header__wrap__seleksi__hasil__akhir {
+        padding-left: 9px;
+        padding-top: 9px;
+        font-size: 9px;
+    }
+}
