@@ -25,6 +25,7 @@
                 <ul>
                     <li> <img src="../assets/Newspaper.svg"> Beasiswa</li>
                     <li> <img src="../assets/Users.svg"> Akun</li>
+                    <li> <form action="/logout" method="get">@csrf<button> Logout </button></form> </li>
                 </ul>
             </div>
         </div>
@@ -58,7 +59,7 @@
                     <div class="dash__detail__header__wrap__subtitle">
                         <h1>Kynesia Scholarship <br/> <span>v1.0</span> </h1>
                         <form action="/dashboard/datadiri"><button> Daftar </button></form>
-                        <form action="/logout" method="get">@csrf<button> Logout </button></form>
+                        <!-- <form action="/logout" method="get">@csrf<button> Logout </button></form> -->
                     </div>
                     <hr>
 
