@@ -1,0 +1,32 @@
+.log__background {
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log__background .log__container {
+    background-color: #ffffff;
+    width: 530px;
+    height: 615px;
+    border: 1px solid #A7A7A7;
+    border-radius: 30px;
+}
+
+.log__background .log__container .log__container__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .log__background .log__container {
+        width: 300px;
+        height: 350px;
+        border-radius: 15px;
+    }
+}

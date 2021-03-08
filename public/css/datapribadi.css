@@ -1,0 +1,615 @@
+/* ------------------------  RESET INPUT ------------------------ */
+
+.input-long {
+    width: 880px;
+    height: 48px;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.input-short {
+    width: 400px;
+    height: 48px;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.input-short-max {
+    width: 160px;
+    height: 48px;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.p-disabled {
+    color: #ffffff;
+}
+
+
+/* ------------------------ END RESET INPUT ------------------------ */
+
+.dp__container {
+    width: 100%;
+    height: 3260px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+
+.dp__container .dp__container__wrap {
+    width: 1170px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 180px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__header .dp__container__wrap__header__logo img {
+    width: 140px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__header .dp__container__wrap__header__profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__header .dp__container__wrap__header__profile h3 {
+    font-size: 21px;
+    margin-right: 30px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__header .dp__container__wrap__header__profile .dp__container__wrap__header__profile__photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: springgreen;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__title {
+    width: 100%;
+    height: 130px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__title .head-1 {
+    font-size: 50px;
+    color: #05AFBE;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__title .head-2 {
+    font-size: 45px;
+    color: #000000;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__step {
+    width: 100%;
+    height: 160px;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box {
+    width: 760px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box .dp__container__wrap__step__box__content {
+    width: 142px;
+    height: 72px;
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box .dp__container__wrap__step__box__content p {
+    font-size: 18px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box .dp__container__wrap__step__box__content img {
+    width: 18px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box .dp__container__wrap__step__box__content.active {
+    background-color: #05AFBE;
+    color: #ffffff;
+}
+
+/* ---------- STYLING FORM BOX ------------- */
+
+.dp__container .dp__container__wrap .dp__container__wrap__form {
+    width: 100%;
+    height: 2400px;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-top: 90px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-1,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-6,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-9,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-10 {
+    width: 100%;
+    height: 120px;
+    padding: 0 145px;
+    font-size: 18px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-2,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-3,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-4,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-5,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-7,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-8,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-11,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-12,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-13,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-14,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-15 {
+    width: 100%;
+    height: 120px;
+    padding: 0 145px;
+    font-size: 18px;
+    display: flex;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-2 .form-content-2-1,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-3 .form-content-3-1,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-4 .form-content-4-1,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-5 .form-content-5-1,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-7 .form-content-7-1,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-8 .form-content-8-1,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-11 .form-content-11-1,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-12 .form-content-12-1,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-13 .form-content-13-1,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-14 .form-content-14-1,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-15 .form-content-15-1 {
+    width: 50%;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-2 .form-content-2-2,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-3 .form-content-3-2,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-4 .form-content-4-2,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-5 .form-content-5-2,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-7 .form-content-7-2,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-8 .form-content-8-2,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-11 .form-content-11-2,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-12 .form-content-12-2,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-13 .form-content-13-2,
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-14 .form-content-14-2 {
+    width: 50%;
+    margin-left: 80px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-9 .form-content-9-1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-9 .form-content-9-1 p {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-15 .form-content-15-2 {
+    width: 30%;
+    margin-left: 80px;
+}
+
+.dp__container .dp__container__wrap .dp__container__wrap__form .form-content-15 .form-content-15-3 {
+    width: 20%;
+}
+
+.form__medsos,
+.form__pilihan {
+    width: 100%;
+    height: 50px;
+    padding: 0 145px;
+    font-size: 18px;
+}
+
+.radiobutton {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.radiobutton input {
+    margin-right: 10px;
+}
+
+#sbmptn {
+    margin-left: 100px;
+}
+
+.radiobutton-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+    height: 140px;
+}
+
+.radiobutton-2 .radiobutton-class {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ---------- END STYLING FORM BOX ------------- */
+
+.dp__container .dp__container__wrap .dp__container__wrap__footer {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------- TOGGLE CLASS ON FORM -------------------- */
+
+.mytoggle-display {
+    display: none;
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* BUTTON */
+
+.form-content-button {
+    width: 100%;
+    height: 60px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 140px;
+}
+
+.form-content-button .button-submit-1 {
+    width: 160px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #FECF60;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.form-content-button .button-submit-2 {
+    width: 160px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05AFBE;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .input-long {
+        width: 440px;
+        height: 24px;
+        border-radius: 4px;
+        padding-left: 10px;
+        margin-top: 5px;
+    }
+    .input-short {
+        width: 200px;
+        height: 24px;
+        border-radius: 4px;
+        padding-left: 10px;
+        margin-top: 5px;
+    }
+    .input-short-max {
+        width: 80px;
+        height: 24px;
+        border-radius: 4px;
+        padding-left: 10px;
+        margin-top: 5px;
+    }
+    .dp__container {
+        height: 1730px;
+    }
+    .dp__container .dp__container__wrap {
+        width: 585px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__header {
+        height: 90px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__header .dp__container__wrap__header__logo img {
+        width: 70px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__header .dp__container__wrap__header__profile h3 {
+        font-size: 10.5px;
+        margin-right: 15px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__header .dp__container__wrap__header__profile .dp__container__wrap__header__profile__photo {
+        width: 25px;
+        height: 25px;
+        border-radius: 12.5px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__title {
+        height: 65px;
+        margin-top: 20px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__title .head-1 {
+        font-size: 25px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__title .head-2 {
+        font-size: 22.5px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__step {
+        height: 160px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box {
+        width: 380px;
+        height: 60px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box .dp__container__wrap__step__box__content {
+        width: 71px;
+        height: 36px;
+        border-radius: 4px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box .dp__container__wrap__step__box__content p {
+        font-size: 9px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box .dp__container__wrap__step__box__content img {
+        width: 9px;
+    }
+
+    /* ---------- STYLING FORM BOX ------------- */
+    .dp__container .dp__container__wrap .dp__container__wrap__form {
+        height: 1230px;
+        border-radius: 4px;
+        margin-top: 10px;
+        padding-top: 45px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-1,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-6,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-9,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-10 {
+        height: 60px;
+        padding: 0 72.5px;
+        font-size: 9px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-3,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-4,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-5,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-7,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-8,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-11,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-12,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-13,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-14,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-15 {
+        height: 60px;
+        padding: 0 72.5px;
+        font-size: 9px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-2 .form-content-2-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-3 .form-content-3-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-4 .form-content-4-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-5 .form-content-5-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-7 .form-content-7-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-8 .form-content-8-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-11 .form-content-11-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-12 .form-content-12-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-13 .form-content-13-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-14 .form-content-14-2 {
+        margin-left: 40px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-9 .form-content-9-1 {
+        margin-top: 5px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-9 .form-content-9-1 p {
+        margin-left: 5px;
+        font-size: 8px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-15 .form-content-15-2 {
+        margin-left: 40px;
+    }
+    .form__medsos,
+    .form__pilihan {
+        height: 25px;
+        padding: 0 72.5px;
+        font-size: 9px;
+    }
+    .radiobutton {
+        height: 40px;
+    }
+    .radiobutton input {
+        margin-right: 5px;
+    }
+    #sbmptn {
+        margin-left: 50px;
+    }
+    .radiobutton-2 {
+        margin-top: 22.5px;
+        height: 70px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__footer {
+        height: 125px;
+        font-size: 9px;
+    }
+    ::placeholder {
+        font-size: 9px;
+    }
+    option {
+        font-size: 9px;
+    }
+    .form-content-button {
+        margin-top: 80px;
+        padding: 0 60px;
+    }
+    .form-content-button .button-submit-1 {
+        width: 80px;
+        height: 28px;
+        margin-right: 20px;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    .form-content-button .button-submit-2 {
+        width: 80px;
+        height: 28px;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .input-long {
+        width: 340px;
+    }
+    .input-short {
+        width: 160px;
+    }
+    .input-short-max {
+        width: 80px;
+    }
+    .dp__container {
+        height: 1550px;
+    }
+    .dp__container .dp__container__wrap {
+        width: 360px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__step {
+        height: 80px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box {
+        width: 340px;
+    }
+
+    /* ---------- STYLING FORM BOX ------------- */
+
+    .dp__container .dp__container__wrap .dp__container__wrap__form {
+        height: 1150px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-1,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-6,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-9,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-10 {
+        padding: 0 10px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-3,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-4,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-5,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-7,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-8,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-11,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-12,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-13,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-14,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-15 {
+        padding: 0 10px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-2 .form-content-2-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-3 .form-content-3-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-4 .form-content-4-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-5 .form-content-5-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-7 .form-content-7-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-8 .form-content-8-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-11 .form-content-11-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-12 .form-content-12-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-13 .form-content-13-2,
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-14 .form-content-14-2 {
+        margin-left: 20px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__form .form-content-15 .form-content-15-2 {
+        margin-left: 20px;
+    }
+    .form__medsos,
+    .form__pilihan {
+        padding: 0 10px;
+    }
+    #sbmptn {
+        margin-left: 50px;
+    }
+    .radiobutton-2 {
+        margin-top: 22.5px;
+        height: 70px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__footer {
+        height: 125px;
+        font-size: 9px;
+    }
+    .form-content-button {
+        margin-top: 40px;
+        padding: 0 10px;
+    }
+    .form-content-button .button-submit-1 {
+        font-size: 9px;
+    }
+    .form-content-button .button-submit-2 {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .input-long {
+        width: 260px;
+    }
+    .input-short {
+        width: 120px;
+    }
+    .input-short-max {
+        width: 60px;
+    }
+    .dp__container .dp__container__wrap {
+        width: 280px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__step {
+        height: 80px;
+    }
+    .dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box {
+        width: 260px;
+    }
+    #sbmptn {
+        margin-left: 15px;
+    }
+    #sex, #identity {
+        font-size: 9px;
+    }
+}

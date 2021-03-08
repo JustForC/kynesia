@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password','avatar'
+        'email','password','avatar',
     ];
 
     /**
@@ -24,9 +24,9 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $hidden = [
-        'password', 'remember_token',
-    ];
+    // protected $hidden = [
+    //     'password', 'remember_token',
+    // ];
 
     /**
      * The attributes that should be cast to native types.
@@ -36,35 +36,39 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-
-    public function downloadables(){
+    
+    public function downloadable(){
         return $this->hasOne(Downloadable::class);
+    }
+    public function socialmedia(){
+        return $this->hasOne(SocialMedia::class);
     }
     public function data(){
         return $this->hasOne(Data::class);
     }
-    public function keluargas(){
-        return $this->hasMany(Keluarga::class);
+    public function networth(){
+        return $this->hasOne(Networth::class);
     }
-    public function pendidikans(){
-        return $this->hasMany(Pendidikan::class);
+    public function educations(){
+        return $this->hasMany(Education::class);
     }
-    public function pelatihans(){
-        return $this->hasMany(Pelatihan::class);
+    public function families(){
+        return $this->hasMany(Family::class);
     }
-    public function prestasis(){
-        return $this->hasMany(Prestasi::class);
+    public function languages(){
+        return $this->hasMany(Language::class);
     }
-    public function bahasas(){
-        return $this->hasMany(Bahasa::class);
+    public function organizations(){
+        return $this->hasMany(Organization::class);
     }
-    public function organisasis(){
-        return $this->hasMany(Organisasi::class);
+    public function talents(){
+        return $this->hasMany(Talent::class);
     }
-    public function talentas(){
-        return $this->hasMany(Talenta::class);
+    public function trainings(){
+        return $this->hasMany(Training::class);
     }
-    public function penghasilans(){
-        return $this->hasOne(Penghasilan::class);
+    public function achievements(){
+        return $this->hasMany(Achievement::class);
     }
+
 }
