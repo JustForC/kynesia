@@ -48,12 +48,11 @@ class DataPribadiController extends Controller
                "major2" =>('required'),
                "university3" =>('required'),
                "major3" =>('required'),
-               ])->validate();
-            // if($validator->fails()){
-            //     var_dump($request->all());
-            //     return "You fail big boy";
-            //     var_dump($user);
-            // }
+               ]);
+               if($validator->fails()){
+                return redirect('/dashboard/datadiri')
+                        ->with('status','Data anda kurang lengkap atau salah');
+            }
             Data::insert([
                 'user_id' => $user, 
                 'name' => $request->name,
@@ -91,8 +90,16 @@ class DataPribadiController extends Controller
                 'youtube' => $request->youtube,
                 'tiktok' => $request->tiktok,
             ]);
+            User::where('id','=',Auth::user()->id)
+            ->update([
+                "name" => $request->name,
+                "status1" => "Sedang Diseleksi"
+            ]);
+
             return redirect('/dashboard');
        }
+
+       //Untuk tempat tinggal tidak sama dengan ktp
        $validator = Validator::make($request->all(),[
         "name" => ('required'),
         "nickname" =>('required'),
@@ -122,9 +129,8 @@ class DataPribadiController extends Controller
         "major3" =>('required'),
         ]);
         if($validator->fails()){
-            var_dump($request->all());
-            var_dump($user);
-            return "boohoo";
+            return redirect('/dashboard/datadiri')
+                    ->with('status','Data anda kurang lengkap atau salah');
         }
         Data::insert([
             'user_id' => $user, 
@@ -163,6 +169,12 @@ class DataPribadiController extends Controller
             'youtube' => $request->youtube,
             'tiktok' => $request->tiktok,
         ]);
+        User::where('id','=',Auth::user()->id)
+            ->update([
+                "name" => $request->name,
+                "status" => "Sedang Diseleksi",
+            ]);
+
        return redirect('/dashboard');
     }
 }

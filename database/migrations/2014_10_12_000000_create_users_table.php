@@ -15,9 +15,11 @@ class CreateUsersTable extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
+            $table->string('name')->default('Jangan Lupa Untuk Daftar');
             $table->string('email')->unique();
             $table->string('avatar')->nullable();
-            $table->string('status')->default('Belum Terdaftar');
+            $table->string('status1')->default('Belum Terdaftar');
+            $table->string('status2')->default('Tunggu Seleksi Tahap 1');
             // $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('role')->default('Pelajar');

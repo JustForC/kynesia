@@ -12,6 +12,11 @@
     <title>Sign Up</title>
 </head>
 <body>
+@if (session('status'))
+    <div class="alert alert-success">
+        {{ session('status') }}
+    </div>
+@endif
     <div class="log__background">
         <div class="log__container">
             <div class="log__container__wrap">

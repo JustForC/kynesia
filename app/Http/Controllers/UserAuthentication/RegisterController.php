@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Http\RedirectResponse;
 use App\User;
 
 class RegisterController extends Controller
@@ -27,10 +28,15 @@ class RegisterController extends Controller
     {
         // $email = 'ghemaallan@gmail.com';
         // $password = 'sadfsdagfsafasd';
-        Validator::make($request->all(),[
+        $validator=Validator::make($request->all(),[
             'email' => ['required', 'string', 'email', 'max:255',],
             'password' => ['required','confirmed','string', 'min:8',],
-        ])->validate();
+        ]);
+
+        if($validator->fails()){
+            return redirect('/register')
+                    ->with('status','Password harus 8 character');
+        }
 
         User::create([
             'email' => $request->email,

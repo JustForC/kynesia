@@ -29,5 +29,11 @@ Route::get('/logout',"UserAuthentication\LoginController@doLogout");
 
 //Route for inputing document
 Route::get('/dashboard',"User\DataPribadiController@dashboard")->middleware('auth');
-Route::get('/dashboard/datadiri',"User\DataPribadiController@showForm")->middleware('auth');
+Route::get('/dashboard/datadiri',"User\DataPribadiController@showForm")->middleware('auth'); //Form datadiri
 Route::post('/dashboard/datadiri',"User\DataPribadiController@doInput")->middleware('auth');
+Route::get('/dashboard/dokumen',"User\DownloadableController@showForm")->middleware('auth'); //Form dokumen pelengkap
+Route::post('/dashboard/dokumen',"User\DownloadableController@doInput")->middleware('auth');
+Route::get('/dashboard/datakeluarga',"User\NetworthController@showForm")->middleware('auth'); //Form data keluarga
+Route::post('/dashboard/datakeluarga',"User\NetworthController@doInput")->middleware('auth');
+Route::get('/dashboard/pendidikan',"User\EducationController@showForm")->middleware('auth'); //Form pendidikan
+Route::post('/dashboard/pendidikan',"User\EducationController@doInput")->middleware('auth');

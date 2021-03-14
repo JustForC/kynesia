@@ -12,6 +12,11 @@
     <title>Data Pribadi</title>
 </head>
 <body>
+@if (session('status'))
+    <div class="alert alert-success">
+        {{ session('status') }}
+    </div>
+@endif
     <div class="dp__container .header-1">
         <div class="dp__container__wrap">
 

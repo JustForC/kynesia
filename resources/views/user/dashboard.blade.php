@@ -38,7 +38,7 @@
                     <div class="dash__detail__profile__name__hamburger" onclick=openNav()>
                         <img src="../assets/BurgerBlack.svg" alt="burger">
                     </div>
-                    <h2>{{Auth::user()->id}}</h2>
+                    <h2>{{Auth::user()->name}}</h2>
                 </div>
                 <div class="dash__detail__profile__email">
                     <h3>{{ auth()->user()->email }}</h3>
@@ -81,7 +81,7 @@
                             </div>
                             <hr>
                             <div class="dash__detail__header__wrap__seleksi__hasil__akhir">
-                                <p>Belum Terdaftar</p>
+                                <p>{{Auth::user()->status1}}</p>
                             </div>
                         </div>
                     </div>
