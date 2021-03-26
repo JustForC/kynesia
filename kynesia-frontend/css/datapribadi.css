@@ -135,6 +135,7 @@
 
 .dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box .dp__container__wrap__step__box__content img {
     width: 18px;
+    color: #000;
 }
 
 .dp__container .dp__container__wrap .dp__container__wrap__step .dp__container__wrap__step__box .dp__container__wrap__step__box__content.active {
