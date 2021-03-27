@@ -37,3 +37,5 @@ Route::get('/dashboard/datakeluarga',"User\NetworthController@showForm")->middle
 Route::post('/dashboard/datakeluarga',"User\NetworthController@doInput")->middleware('auth');
 Route::get('/dashboard/pendidikan',"User\EducationController@showForm")->middleware('auth'); //Form pendidikan
 Route::post('/dashboard/pendidikan',"User\EducationController@doInput")->middleware('auth');
+
+Route::get('/datakeluarga',"User\NetworthController@showForm");

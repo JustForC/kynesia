@@ -15,7 +15,8 @@ class CreateUsersTable extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->default('Jangan Lupa Untuk Daftar');
+            $table->string('code')->default('Belum Terdaftar');
+            $table->string('name');
             $table->string('email')->unique();
             $table->string('avatar')->nullable();
             $table->string('status1')->default('Belum Terdaftar');

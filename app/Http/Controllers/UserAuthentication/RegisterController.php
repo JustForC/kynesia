@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\RedirectResponse;
 use App\User;
+use App\Data;
 
 class RegisterController extends Controller
 {
@@ -31,15 +32,17 @@ class RegisterController extends Controller
         $validator=Validator::make($request->all(),[
             'email' => ['required', 'string', 'email', 'max:255',],
             'password' => ['required','confirmed','string', 'min:8',],
+            'name' => ['required','string'],
         ]);
 
         if($validator->fails()){
             return redirect('/register')
                     ->with('status','Password harus 8 character');
-        }
+        };
 
-        User::create([
+        User::insert([
             'email' => $request->email,
+            'name' => $request->name,
             'avatar' => $request->avatar,
             'password' => Hash::make($request->password),
         ]);

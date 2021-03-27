@@ -30,6 +30,10 @@
                             <label for="email">Email</label>
                             <input type="email" id="email" name="email" placeholder="Email">
                         </div>
+                        <div class="email">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="email" name="name" placeholder="Email">
+                        </div>
                         <div class="password">
                             <label for="password">Password</label>
                             <input type="password" id="password" name="password" placeholder="Password">

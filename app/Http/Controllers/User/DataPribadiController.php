@@ -54,8 +54,8 @@ class DataPribadiController extends Controller
                         ->with('status','Data anda kurang lengkap atau salah');
             }
             Data::insert([
-                'user_id' => $user, 
-                'name' => $request->name,
+                'user_id' => Auth::user()->id, 
+                'name' => Auth::user()->name,
                 'nickname' => $request->nickname,
                 'sex' => $request->sex,
                 'birthplace' => $request->birthplace,
@@ -83,7 +83,7 @@ class DataPribadiController extends Controller
                 'university3' => $request->university3,
             ]);
             SocialMedia::insert([
-                'user_id' => $user,
+                'user_id' => Auth::user()->id,
                 'facebook' => $request->facebook,
                 'twitter' => $request->twitter,
                 'instagram' => $request->instagram,
@@ -93,10 +93,11 @@ class DataPribadiController extends Controller
             User::where('id','=',Auth::user()->id)
             ->update([
                 "name" => $request->name,
+                'code' => 'K'.Auth::user()->id,
                 "status1" => "Sedang Diseleksi"
             ]);
 
-            return redirect('/dashboard');
+            return redirect('/dashboard/datakeluarga');
        }
 
        //Untuk tempat tinggal tidak sama dengan ktp
@@ -133,8 +134,8 @@ class DataPribadiController extends Controller
                     ->with('status','Data anda kurang lengkap atau salah');
         }
         Data::insert([
-            'user_id' => $user, 
-            'name' => $request->name,
+            'user_id' => Auth::user()->id,         
+            'name' => Auth::user()->name,
             'nickname' => $request->nickname,
             'sex' => $request->sex,
             'birthplace' => $request->birthplace,
@@ -172,9 +173,10 @@ class DataPribadiController extends Controller
         User::where('id','=',Auth::user()->id)
             ->update([
                 "name" => $request->name,
+                'code' => 'K'.Auth::user()->id,
                 "status" => "Sedang Diseleksi",
             ]);
 
-       return redirect('/dashboard');
+       return redirect('/dashboard/datakeluarga');
     }
 }

@@ -25,7 +25,7 @@
                     <img src="../assets/logo.png" alt="logo">
                 </div>
                 <div class="dp__container__wrap__header__profile">
-                    <h3>{{Auth::user()->email}}</h3>
+                    <h3>{{Auth::user()->name}}</h3>
                     <div class="dp__container__wrap__header__profile__photo">
                         
                     </div>
@@ -43,10 +43,12 @@
                         <img src="../assets/sheet.svg" alt="sheet">
                         <p>Data Pribadi</p>
                     </div>
+                    <a href="/dashboard/datakeluarga">
                     <div class="dp__container__wrap__step__box__content">
                         <img src="../assets/User.svg" alt="sheet">
                         <p>Keuangan</p>
                     </div>
+                    </a>
                     <div class="dp__container__wrap__step__box__content">
                         <img src="../assets/User.svg" alt="sheet">
                         <p>Pendidikan</p>

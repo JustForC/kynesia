@@ -81,6 +81,9 @@
                             </div>
                             <hr>
                             <div class="dash__detail__header__wrap__seleksi__hasil__akhir">
+                                <p>{{Auth::user()->code}}</p>
+                                <br>
+                                <p>Hasil Seleksi</p>
                                 <p>{{Auth::user()->status1}}</p>
                             </div>
                         </div>
