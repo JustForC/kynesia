@@ -311,7 +311,6 @@
                         margin: 0 -11%;
                         h2 {
                             font-size: 22px;
-                            color: #ffffff;
                         }
                     }
                     .money-form {
@@ -586,6 +585,9 @@
                     .money-plus {
                         width: 70vw;
                         height: 48px;
+                        p {
+                            font-size: 12px;
+                        }
                     }
     
                     .money-income {

@@ -446,7 +446,6 @@
   }
   .dp__container .dp__container__wrap .money__container .money__container__wrap .money-dad h2 {
     font-size: 22px;
-    color: #ffffff;
   }
   .dp__container .dp__container__wrap .money__container .money__container__wrap .money-form {
     padding: 20px 0;
@@ -897,6 +896,9 @@
   .dp__container .dp__container__wrap .money__container .money__container__wrap .money-plus {
     width: 70vw;
     height: 48px;
+  }
+  .dp__container .dp__container__wrap .money__container .money__container__wrap .money-plus p {
+    font-size: 12px;
   }
   .dp__container .dp__container__wrap .money__container .money__container__wrap .money-income {
     margin-bottom: 30px;
