@@ -122,7 +122,9 @@
                         font-size: 27px;
                     }
                 }
+
                 .money-dad {
+                    display: none;
                     padding: 10px 105px;
                     margin: 0 -105px;
                     background-color: #05AFBE;
@@ -131,13 +133,21 @@
                         color: #ffffff;
                     }
                 }
+
                 .money-form {
+                    display: none;
                     padding: 20px 0;
-                    .money-form-1 {
+                    .money-form-1, .money-form-2 , .money-form-3, .money-form-4 {
                         display: flex;
                         justify-content: space-between;
                         margin-bottom: 20px;
-                        .money-form-1-name, .money-form-1-jk {
+                        .money-form-1-name,
+                        .money-form-1-jk,
+                        .money-form-2-born,
+                        .money-form-2-date,
+                        .money-form-3-school,
+                        .money-form-3-work,
+                        .money-form-4-status{
                             p {
                                 font-size: 18px;
                                 margin-bottom: 10px;
@@ -154,52 +164,18 @@
                             }
                         }
                     }
-                    .money-form-2 {
-                        display: flex;
-                        justify-content: space-between;
-                        margin-bottom: 20px;
-                        .money-form-2-born, .money-form-2-date {
-                            p {
-                                font-size: 18px;
-                                margin-bottom: 10px;
-                            }
-                            input {
-                                width: 401px;
-                                height: 48px;
-                                padding-left: 10px;
-                            }
-                        }
-                    }
-                    .money-form-3 {
-                        display: flex;
-                        justify-content: space-between;
-                        margin-bottom: 20px;
-                        .money-form-3-school, .money-form-3-work {
-                            p {
-                                font-size: 18px;
-                                margin-bottom: 10px;
-                            }
-                            input {
-                                width: 401px;
-                                height: 48px;
-                                padding-left: 10px;
-                            }
-                        }
-                    }
-                    .money-form-4 {
-                        .money-form-4-status {
-                            p {
-                                font-size: 18px;
-                                margin-bottom: 10px;
-                            }
-                            select {
-                                width: 401px;
-                                height: 48px;
-                                padding-left: 10px;
-                                margin-bottom: 25px;
-                            }
-                        }
-                    }
+                }
+
+                .money-plus {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 401px;
+                    height: 48px;
+                    margin-top: 70px;
+                    padding: 0 10px;
+                    border: dotted 1px;
+                    cursor: pointer;
                 }
 
                 .money-income {
@@ -242,6 +218,398 @@
                         border: none;
                         background-color: #05AFBE;
                         color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1279px) {
+    .dp__container {    
+        .dp__container__wrap {
+            width: 91.406vw;
+            .dp__container__wrap__header {
+                height: 180px;
+                .dp__container__wrap__header__logo {
+                    img {
+                        width: 140px;
+                    }
+                }
+                .dp__container__wrap__header__profile {
+                    h3 {
+                        font-size: 21px;
+                        margin-right: 30px;
+                    }
+                    .dp__container__wrap__header__profile__photo {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                        background-color: springgreen;
+                    }
+                }
+            }
+    
+            .dp__container__wrap__title {
+                width: 100%;
+                height: 130px;
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+                .head-1 {
+                    font-size: 45px;
+                    color: #05AFBE;
+                }
+                .head-2 {
+                    font-size: 40px;
+                    color: #000000;
+                }
+            }
+    
+            .dp__container__wrap__step {
+                height: 160px;
+                .dp__container__wrap__step__box {
+                    width: 760px;
+                    height: 120px;    
+                    .dp__container__wrap__step__box__content {
+                        width: 142px;
+                        height: 72px;
+                        border-radius: 8px;
+                        p {
+                            font-size: 18px;
+                        }
+                        img {
+                            width: 18px;
+                            color: #000;
+                        }
+                    }
+                    .dp__container__wrap__step__box__content.active {
+                        background-color: #05AFBE;
+                        color: #ffffff;
+                    }
+                }
+            }
+    
+    
+            //styling baru 
+    
+            .money__container {  
+                padding: 30px 0;  
+                .money__container__wrap {
+                    width: 75vw;
+                    .money-header {
+                        padding: 10px 0;
+                        margin-bottom: 10px;
+                        h1 {
+                            font-size: 27px;
+                        }
+                    }
+                    .money-dad {
+                        padding: 10px 10%;
+                        margin: 0 -11%;
+                        h2 {
+                            font-size: 22px;
+                            color: #ffffff;
+                        }
+                    }
+                    .money-form {
+                        padding: 20px 0;
+                        .money-form-1, .money-form-2 , .money-form-3, .money-form-4 {
+                            margin-bottom: 20px;
+                            .money-form-1-name,
+                            .money-form-1-jk,
+                            .money-form-2-born,
+                            .money-form-2-date,
+                            .money-form-3-school,
+                            .money-form-3-work,
+                            .money-form-4-status{
+                                p {
+                                    font-size: 18px;
+                                    margin-bottom: 10px;
+                                }
+                                input, select {
+                                    width: 31.328vw;
+                                    height: 48px;
+                                    padding-left: 10px;
+                                }
+                            }
+                        }
+                    }
+    
+                    .money-income {
+                        margin-bottom: 30px;
+                        p {
+                            font-size: 18px;
+                            margin: 50px 0 20px 0;
+                        }
+                        input {
+                            width: 31.328vw;
+                            height: 48px;
+                            padding-left: 10px;
+                        }
+                    }
+    
+                    .money-button {
+                        padding: 25px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 700px) {
+    .dp__container {    
+        .dp__container__wrap {
+            .dp__container__wrap__header {
+                height: 90px;
+                .dp__container__wrap__header__profile {
+                    h3 {
+                        font-size: 18px;
+                        margin-right: 24px;
+                    }
+                    .dp__container__wrap__header__profile__photo {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            .dp__container__wrap__title {
+                width: 100%;
+                height: 90px;
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+                .head-1 {
+                    font-size: 36px;
+                }
+                .head-2 {
+                    font-size: 32px;
+                }
+            }
+            .dp__container__wrap__step {
+                height: 120px;
+                .dp__container__wrap__step__box {
+                    width: 540px;
+                    height: 90px;  
+                    .dp__container__wrap__step__box__content {
+                        width: 85px;
+                        height: 58px;
+                        border-radius: 4px;
+                        p {
+                            font-size: 12px;
+                        }
+                        img {
+                            width: 12px;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+    
+            //styling baru 
+    
+            .money__container {  
+                padding: 25px 0;  
+                .money__container__wrap {
+                    width: 75vw;
+                    .money-header {
+                        padding: 10px 0;
+                        margin-bottom: 10px;
+                        h1 {
+                            font-size: 20px;
+                        }
+                    }
+                    .money-dad {
+                        h2 {
+                            font-size: 18px;
+                        }
+                    }
+                    .money-form {
+                        padding: 20px 0;
+                        .money-form-1, .money-form-2 , .money-form-3, .money-form-4 {
+                            margin-bottom: 20px;
+                            .money-form-1-name,
+                            .money-form-1-jk,
+                            .money-form-2-born,
+                            .money-form-2-date,
+                            .money-form-3-school,
+                            .money-form-3-work,
+                            .money-form-4-status{
+                                p {
+                                    font-size: 14px;
+                                    margin-bottom: 10px;
+                                }
+                                input, select {
+                                    width: 34.328vw;
+                                    height: 48px;
+                                    padding-left: 10px;
+                                }
+                            }
+                        }
+                    }
+    
+                    .money-income {
+                        margin-bottom: 30px;
+                        p {
+                            font-size: 18px;
+                            margin: 50px 0 20px 0;
+                        }
+                        input {
+                            width: 31.328vw;
+                            height: 48px;
+                            padding-left: 10px;
+                        }
+                    }
+    
+                    .money-button {
+                        padding: 25px 0;
+    
+                        button {
+                            width: 140px;
+                            height: 46px;
+                            border-radius: 8px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .dp__container {    
+        .dp__container__wrap {
+            .dp__container__wrap__header {
+                height: 25px;
+            .dp__container__wrap__header__logo {
+                img {
+                    width: 110px;
+                }
+            }
+                .dp__container__wrap__header__profile {
+                    h3 {
+                        font-size: 12px;
+                        margin-right: 10px;
+                    }
+                    .dp__container__wrap__header__profile__photo {
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            .dp__container__wrap__title {
+                width: 100%;
+                height: 70px;
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+                .head-1 {
+                    font-size: 28px;
+                }
+                .head-2 {
+                    font-size: 24px;
+                }
+            }
+            .dp__container__wrap__step {
+                height: 80px;
+                .dp__container__wrap__step__box {
+                    width: 320px;
+                    height: 90px;  
+                    .dp__container__wrap__step__box__content {
+                        width: 65px;
+                        height: 40px;
+                        border-radius: 4px;
+                        p {
+                            font-size: 9px;
+                        }
+                        img {
+                            width: 9px;
+                        }
+                    }
+                }
+            }
+    
+            //styling baru 
+    
+            .money__container {  
+                padding: 25px 0;  
+                .money__container__wrap {
+                    width: 75vw;
+                    .money-header {
+                        padding: 10px 0;
+                        margin-bottom: 10px;
+                        h1 {
+                            font-size: 16px;
+                        }
+                    }
+                    .money-dad {
+                        h2 {
+                            font-size: 14px;
+                        }
+                    }
+                    .money-form {
+                        padding: 20px 0;
+                        .money-form-1, .money-form-2 , .money-form-3, .money-form-4 {
+                            margin-bottom: 0px;
+                            flex-direction: column;
+                            .money-form-1-name,
+                            .money-form-1-jk,
+                            .money-form-2-born,
+                            .money-form-2-date,
+                            .money-form-3-school,
+                            .money-form-3-work,
+                            .money-form-4-status{
+                                p {
+                                    font-size: 14px;
+                                    margin-bottom: 10px;
+                                }
+                                input, select {
+                                    width: 70vw;
+                                    height: 48px;
+                                    padding-left: 10px;
+                                    margin-bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+
+                    .money-plus {
+                        width: 70vw;
+                        height: 48px;
+                    }
+    
+                    .money-income {
+                        margin-bottom: 30px;
+                        p {
+                            font-size: 14px;
+                            margin: 50px 0 20px 0;
+                        }
+                        input {
+                            width: 70vw;
+                            height: 48px;
+                            padding-left: 10px;
+                        }
+                    }
+    
+                    .money-button {
+                        padding: 25px 0;
+    
+                        button {
+                            width: 140px;
+                            height: 46px;
+                            border-radius: 8px;
+                            margin-left: 20px;
+                        }
                     }
                 }
             }
